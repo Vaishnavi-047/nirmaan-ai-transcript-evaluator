@@ -1,0 +1,102 @@
+
+---
+
+## 🧠 How Scoring Works
+
+### 1. **Rule-Based**
+- Matches rubric keywords in the transcript.
+- Keyword score = fraction of keywords matched.
+
+### 2. **Semantic Similarity (TF-IDF)**
+- Computes similarity between rubric descriptions and transcript.
+
+### 3. **Word-Count Score**
+- Penalty if transcript is below minimum or above maximum.
+
+### 4. **Weighted Combination**
+Each criterion score =  
+Then scaled by rubric weight → contributes to final score.
+
+---
+
+## 📘 Running Locally (Python)
+
+1. Clone the repo:
+
+---
+
+## 💻 Running on Google Colab
+Upload:
+- `notebook/Nirmaan_Evaluation_Colab_Notebook.ipynb`
+- All files in `data/`
+
+Then run all cells.
+
+---
+
+## 📤 Submission Files
+The repo includes:
+- Source code
+- Notebook
+- Documentation
+- Deployment guide
+- Example output
+
+---
+
+## 🔎 Notes
+This project is not meant to be perfect—it demonstrates:
+- Product thinking  
+- Combining rule-based + NLP approaches  
+- Designing a scoring workflow  
+- Ability to structure a real-world mini-project  
+
+---
+
+## 👤 Author
+**Somarouthu Vaishnavi**  
+Nirmaan AI Internship Case Study
+
+# Deployment Guide
+
+## 1. Local Deployment
+You can run the tool on any system with Python 3.8+.
+
+Steps:
+1. Install dependencies
+2. Place rubric + transcript inside /data
+3. Run evaluation_script.py
+4. Output will appear in /output
+
+---
+
+## 2. Remote Deployment (Optional)
+You can deploy on:
+- Google Colab
+- PythonAnywhere Free Tier
+- Render free tier
+- GitHub Codespaces
+- Railway.app (free)
+
+Since this is not a production system, simple execution is enough.
+
+---
+
+## 3. Using GitHub Codespaces
+1. Open repo in GitHub
+2. Click "Code" → "Open in Codespaces"
+3. Install requirements
+4. Run the script
+
+---
+
+## 4. Video Recording Guide
+Record your screen showing:
+- Running the notebook OR running the Python script
+- Showing the final score + breakdown
+
+Use:
+- OBS Studio
+- Windows Screen Recorder (Win + G)
+- Loom (free)
+
